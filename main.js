@@ -23,11 +23,7 @@ function animate() {
   // Animate cloud 1
   cloud1x++; // Move right
 
-  // If cloud goes off right side of canvas, teleport to left side at random height
-  if (cloud1x > cnv.width) {
-    cloud1x = 0 - 100;
-    cloud1y = Math.random() * 200;
-  }
+  
 
   // Animate cloud 2
   cloud2x++; // Move right
